@@ -19,10 +19,10 @@ class MainActivity : AppCompatActivity() {
             val faltas = Integer.parseInt(faltas.text.toString())
 
             if(media>=6 &&faltas<=10){
-                resultado.setText("Parabéns, você foi aprovado" + "\n" + "Nota final:" +media+ "\n" + "Faltas: " + faltas)
+                resultado.setText("Parabéns, você foi aprovado" + "\n" + "Nota final: "  +media+ "\n" + "Faltas: " + faltas)
             }
             else{
-                resultado.setText("Infelizmente você foi reprovado" + "\n" + "Nota final:" +media+ "\n" + "Faltas: " + faltas)
+                resultado.setText("Infelizmente você foi reprovado" + "\n" + "Nota final: "  +media+ "\n" + "Faltas: " + faltas)
 
             }
 
